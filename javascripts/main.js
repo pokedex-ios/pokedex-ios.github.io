@@ -1,1 +1,3 @@
-console.log('This would be the main JS file.');
+$.get('https://api.github.com/repos/pokedex-ios/pokedex-xcode/commits',function(data) {
+  alert('Test');
+})
